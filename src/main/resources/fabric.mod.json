@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "retrorewind",
+	"version": "${version}",
+	"name": "RetroRewind",
+	"description": "A mod that breaths new life into removed features.",
+	"authors": [
+		"LunarJack"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/retrorewind/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lunarjack.retrorewind.RetroRewind"
+		],
+		"fabric-datagen": [
+			"net.lunarjack.retrorewind.RetroRewindDataGenerator"
+		],
+		"client": [
+			"net.lunarjack.retrorewind.RetroRewindClient"
+		]
+	},
+	"mixins": [
+		"retrorewind.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
