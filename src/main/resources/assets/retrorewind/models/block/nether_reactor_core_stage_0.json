@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures":
+  {
+    "all": "retrorewind:block/nether_reactor_core_stage_0"
+  }
+}

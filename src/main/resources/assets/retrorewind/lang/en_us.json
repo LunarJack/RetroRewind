@@ -1,0 +1,20 @@
+{
+  "item.retrorewind.ruby": "Ruby",
+  "item.retrorewind.cloudy_ruby": "Cloudy Ruby",
+  "item.retrorewind.ruby_ingot": "Ruby Ingot",
+  "item.retrorewind.quiver": "Quiver",
+  "item.retrorewind.fish": "Fish",
+  "item.retrorewind.cooked_fish": "Cooked  Fish",
+
+  "itemgroup.retrorewind.retrorewind_group": "RetroRewind",
+
+  "block.retrorewind.ruby_block": "Block of Ruby",
+  "block.retrorewind.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.retrorewind.ruby_ore": "Ruby Ore",
+  "block.retrorewind.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.retrorewind.ancient_wood_planks": "Ancient Wood Planks",
+  "block.retrorewind.ancient_wood_button": "Ancient Wood Button",
+  "block.retrorewind.ancient_wood_slab": "Ancient Wood Slab",
+  "block.retrorewind.ancient_wood_stairs": "Ancient Wood Stairs",
+  "block.retrorewind.nether_reactor_core": "Nether Reactor Core"
+}
