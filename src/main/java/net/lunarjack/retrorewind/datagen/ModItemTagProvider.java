@@ -22,5 +22,20 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider
         getOrCreateTagBuilder(ItemTags.FISHES)
                 .add(ModItems.FISH)
                 .add(ModItems.COOKED_FISH);
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.RUBY_SWORD);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.RUBY_AXE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.RUBY_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.RUBY_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.RUBY_HOE);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.RUBY_HELMET)
+                .add(ModItems.RUBY_CHESTPLATE)
+                .add(ModItems.RUBY_LEGGINGS)
+                .add(ModItems.RUBY_BOOTS); 
     }
 }

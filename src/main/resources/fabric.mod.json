@@ -12,7 +12,7 @@
 		"sources": "https://github.com/LunarJack/RetroRewind"
 	},
 	"license": "MIT",
-	"icon": "assets/retrorewind/icon.png",
+	"icon": "assets/retrorewind/textures/item/ruby.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

@@ -2,7 +2,6 @@ package net.lunarjack.retrorewind;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.lunarjack.retrorewind.block.ModBlocks;
 import net.lunarjack.retrorewind.component.ModDataComponentTypes;
 import net.lunarjack.retrorewind.item.ModFuelItems;
