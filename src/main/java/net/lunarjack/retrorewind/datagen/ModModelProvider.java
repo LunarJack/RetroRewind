@@ -6,7 +6,6 @@ import net.lunarjack.retrorewind.block.ModBlocks;
 import net.lunarjack.retrorewind.item.ModItems;
 import net.minecraft.data.client.*;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider
 {
@@ -37,7 +36,6 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.FISH, Models.GENERATED);
         itemModelGenerator.register(ModItems.QUIVER, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);

@@ -3,6 +3,7 @@ package net.lunarjack.retrorewind.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.lunarjack.retrorewind.RetroRewind;
 import net.lunarjack.retrorewind.block.ModBlocks;
+import net.lunarjack.retrorewind.sound.ModSounds;
 import net.minecraft.item.*;
 
 import net.minecraft.registry.Registries;
@@ -33,8 +34,6 @@ public class ModItems
     public static final Item COOKED_FISH = registerItem("cooked_fish", new Item(new Item.Settings().food(ModFoodComponents.COOKED_FISH)));
 
     public static final Item COPPER_HORN = registerItem("copper_horn", new CopperHornItem(new Item.Settings().maxCount(1), InstrumentTags.GOAT_HORNS));
-
-    public static final Item RUBY_UPGRADE_SMITHING_TEMPLATE = registerItem("ruby_upgrade_smithing_template", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item)
     {
