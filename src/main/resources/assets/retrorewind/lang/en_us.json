@@ -25,5 +25,8 @@
   "block.retrorewind.ancient_wood_button": "Ancient Wood Button",
   "block.retrorewind.ancient_wood_slab": "Ancient Wood Slab",
   "block.retrorewind.ancient_wood_stairs": "Ancient Wood Stairs",
-  "block.retrorewind.nether_reactor_core": "Nether Reactor Core"
+  "block.retrorewind.nether_reactor_core": "Nether Reactor Core",
+  "sounds.retrorewind.ruby_block_place": "Ruby Block Placed",
+  "sounds.retrorewind.ruby_block_hit": "Ruby Block Breaking",
+  "sounds.retrorewind.ruby_block_break": "Ruby Block Broken"
 }

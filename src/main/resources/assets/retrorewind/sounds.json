@@ -1,0 +1,42 @@
+{
+  "ruby_block_place":
+  {
+    "subtitle": "sounds.retrorewind.ruby_block_place",
+    "sounds":
+    [
+      "retrorewind:ruby_block_place"
+    ]
+  },
+  "ruby_block_hit":
+  {
+    "subtitle": "sounds.retrorewind.ruby_block_hit",
+    "sounds":
+    [
+      "retrorewind:ruby_block_hit"
+    ]
+  },
+  "ruby_block_step":
+  {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds":
+    [
+      "retrorewind:ruby_block_step"
+    ]
+  },
+  "ruby_block_break":
+  {
+    "subtitle": "sounds.retrorewind.ruby_block_break",
+    "sounds":
+    [
+      "retrorewind:ruby_block_break"
+    ]
+  },
+  "ruby_block_fall":
+  {
+    "subtitle": "subtitles.entity.generic.big_fall",
+    "sounds":
+    [
+      "retrorewind:ruby_block_fall"
+    ]
+  }
+}

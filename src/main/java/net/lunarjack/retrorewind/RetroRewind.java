@@ -7,6 +7,7 @@ import net.lunarjack.retrorewind.component.ModDataComponentTypes;
 import net.lunarjack.retrorewind.item.ModFuelItems;
 import net.lunarjack.retrorewind.item.ModItemGroups;
 import net.lunarjack.retrorewind.item.ModItems;
+import net.lunarjack.retrorewind.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,5 +28,7 @@ public class RetroRewind implements ModInitializer
 		ModFuelItems.registerFuelItems();
 
 		ModDataComponentTypes.registerComponentTypes();
+
+		ModSounds.registerSounds();
 	}
 }

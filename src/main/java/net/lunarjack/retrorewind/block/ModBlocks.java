@@ -2,6 +2,7 @@ package net.lunarjack.retrorewind.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.lunarjack.retrorewind.RetroRewind;
+import net.lunarjack.retrorewind.sound.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -15,7 +16,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks
 {
-    public static final Block RUBY_BLOCK = registerBlock("ruby_block", new Block(AbstractBlock.Settings.copy(Blocks.EMERALD_BLOCK).mapColor(MapColor.RED)));
+    public static final Block RUBY_BLOCK = registerBlock("ruby_block", new Block(AbstractBlock.Settings.copy(Blocks.EMERALD_BLOCK).mapColor(MapColor.RED).sounds(ModSounds.RUBY_BLOCK_SOUNDS)));
     public static final Block RUBY_ORE = registerBlock("ruby_ore", new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), AbstractBlock.Settings.copy(Blocks.EMERALD_ORE).mapColor(MapColor.STONE_GRAY)));
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore", new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), AbstractBlock.Settings.copy(Blocks.DEEPSLATE_EMERALD_ORE).mapColor(MapColor.DEEPSLATE_GRAY)));
     public static final Block ANCIENT_WOOD_PLANKS = registerBlock("ancient_wood_planks", new Block(AbstractBlock.Settings.copy(Blocks.STONE)));
